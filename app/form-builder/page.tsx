@@ -1,10 +1,11 @@
+import FormBuilderHeader from "./components/formBuilderHeader/FormBuilderHeader"
 
 type FormBuilderProps = {}
 
 const FormBuilder: React.FC<FormBuilderProps> = ({}) => {
     return (
-        <div>
-
+        <div className="min-h-screen">
+            
         </div>
     )
 }

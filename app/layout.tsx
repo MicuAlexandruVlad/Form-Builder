@@ -35,7 +35,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${interSans.variable} bg-[#121d20] ${interMono.variable} antialiased`}
+				className={`${interSans.variable} bg-[#121d20] ${interMono.variable} h-screen antialiased`}
 			>
 				{children}
 			</body>
