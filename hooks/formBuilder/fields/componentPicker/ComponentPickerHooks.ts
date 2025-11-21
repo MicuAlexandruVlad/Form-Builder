@@ -60,7 +60,7 @@ export const useComponentPickerHooks = () => {
         const textAlignControl: OptionPickerInputControl<Header> = {
             id: crypto.randomUUID(),
             defaultValue: textAlignOptions()[0].displayValue,
-            label: 'Font Weight',
+            label: 'Text Align',
             options: [ ...textAlignOptions() ],
             placeholder: 'Select text alignment',
             property: 'textAlign',
