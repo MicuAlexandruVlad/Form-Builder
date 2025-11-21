@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
 	return (
-		<main className="bg-[#232a2f] h-screen flex flex-col">
+		<main className="bg-[#232a2f] h-screen flex flex-col overflow-hidden">
 			<FormBuilderHeader />
 			<Suspense fallback={<span>Loading...</span>}>
 				{ children }
